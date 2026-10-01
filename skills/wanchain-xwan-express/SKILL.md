@@ -1,9 +1,9 @@
 ---
 name: wanchain-xwan-express
-description: Sells xWAN, Wanchain's escrowed WAN, for WAN at once through xWAN Express, a fixed-rate desk that OrbitWan runs. It first sets out the holder's options (redeem on XFlows with a 90-day vesting period for WAN 1:1 or at once for 25 percent, or sell now to the desk), then, when the owner chooses to sell, reads the live quote and the desk's WAN balance, approves the exact amount and sells. Use it whenever someone holds xWAN, has earned xWAN from Bridge to Earn or other Wanchain rewards, or asks how to turn xWAN into WAN now.
+description: Sells xWAN, Wanchain's escrowed WAN, for WAN at once through xWAN Express, a fixed-rate desk that OrbitWan runs. It first sets out the holder's options (redeem on XFlows with a vesting period of 0 to 90 days, which pays 0.25 WAN per xWAN on the whole amount at 0 days and 1 WAN per xWAN at 90 days, or sell now to the desk), then, when the owner chooses to sell, reads the live quote and the desk's WAN balance, approves the exact amount and sells. Use it whenever someone holds xWAN, has earned xWAN from Bridge to Earn or other Wanchain rewards, or asks how to turn xWAN into WAN now.
 license: MIT
 compatibility: Needs network access, a signer for the Wanchain address that holds the xWAN whose key never enters the model context, and the OrbitWan MCP server (https://mcp.orbitwan.io/mcp) or its web routes.
-metadata: {"author":"orbitwan.io","version":"0.2.1"}
+metadata: {"author":"orbitwan.io","version":"0.2.2"}
 ---
 
 # xWAN Express
