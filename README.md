@@ -6,7 +6,7 @@ Agent Skills for Wanchain, the cross-chain blockchain, built on the OrbitWan MCP
 
 | Skill | Version | What it does |
 |---|---|---|
-| [wanchain-bridge-to-earn](skills/wanchain-bridge-to-earn/SKILL.md) | 0.7.1 | Earns rewards from Wanchain's Bridge to Earn program, usually paid in xWAN, by completing posted cross-chain transfer tasks. |
+| [wanchain-bridge-to-earn](skills/wanchain-bridge-to-earn/SKILL.md) | 0.8.0 | Earns rewards from Wanchain's Bridge to Earn program, usually paid in xWAN, by completing posted cross-chain transfer tasks end to end, from claim to collected reward. |
 | [wanchain-xwan-express](skills/wanchain-xwan-express/SKILL.md) | 0.2.2 | Sells xWAN, Wanchain's escrowed WAN, for WAN at once through xWAN Express, a fixed-rate desk that OrbitWan runs. |
 
 ## Install
